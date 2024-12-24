@@ -1,0 +1,7 @@
+.links{
+   font-size: 1.2rem;
+   margin-right: 2.5rem;
+}
+.links:last-child{
+   margin-right: 0;
+}

@@ -1,0 +1,16 @@
+.title {
+   font-size: 60px;
+   margin: 0 0 2rem 0 ;
+   padding: 0 11px 0 210px;
+   text-align: start; 
+}
+.list{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-bottom: 3.5rem;
+}

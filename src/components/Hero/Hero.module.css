@@ -1,0 +1,73 @@
+.heroSection{
+   display: flex;
+   /* max-height: 600px;
+   max-width: 1800px; */
+   position: relative;
+   padding: 20px 0;
+   border-radius: 4px;
+   margin: 5px;
+}
+.heroTitle{
+   font-size: 75px;
+   margin:0 0 2rem 0;
+   font-weight: 600;
+   
+}
+.heroText{
+   margin: 0 0 2rem 0;
+   font-size: 15px;
+}
+
+.heroImg{
+   border-top-right-radius: 20px;
+   border-bottom-right-radius: 20px;
+   width: 480px;
+   height: 600px;
+   opacity: 0.8;
+}
+
+.heroDiv{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   top:50px;
+   left: 175px;
+   width: 700px;
+   position: absolute;
+   padding: 40px;
+   background-color: #1E0C06;
+   border-top-left-radius: 2rem;
+   border-bottom-left-radius: 2rem;
+   text-align:start ;
+   gap: 3rem;
+   
+}
+.imgWraper{
+   position: relative;
+}
+.sectionImg{
+   width: 140px;
+   height: 140px;
+   border-radius: 2rem;
+   display: block;
+   position: absolute;
+   top: 20px;
+   right: 50px;
+   
+}
+.sectionImg:first-child{
+   top: 80px;
+   right: 210px;
+}
+.sectionImg:last-child{
+   left: -250px;
+   top:230px
+}
+.orderBtn{
+      background-color: #728BAD;
+      color: white;
+      padding: 5px 30px;
+      border-radius: 50px;
+      cursor: pointer;
+      font-weight: 800;
+}
